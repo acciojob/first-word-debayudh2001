@@ -1,6 +1,6 @@
 function firstWord(str) {
 	let new_str = ""
-	if(str.length == 0 || !str.includes(" ")){
+	if(str == null || str == undefined){
 		return str
 	}else{
 		for(let v of str){
