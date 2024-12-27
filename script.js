@@ -1,15 +1,15 @@
 function firstWord(str) {
 	let new_str = ""
-	for(let v of str){
-		if(v == " "){
-			break
-		}else{
-			new_str += v
-		}
-	}
-	if(new_str.length == 0){
-		return new_str
+	if(str.length == 0 || !str.includes(" ")){
+		return str
 	}else{
+		for(let v of str){
+		   if(v == " "){
+			   break
+		   }else{
+			   new_str += v
+		   }
+	    }
 		return new_str
 	}
 }
