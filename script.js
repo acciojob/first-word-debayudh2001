@@ -7,7 +7,11 @@ function firstWord(str) {
 			new_str += v
 		}
 	}
-	return new_str
+	if(new_str.length == 0){
+		return new_str
+	}else{
+		return new_str
+	}
 }
 
 // Do not change the code below
