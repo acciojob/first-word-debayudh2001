@@ -1,6 +1,6 @@
 function firstWord(str) {
 	let new_str = ""
-	str.trim()
+	str = str.trim()
 	if(str == null || str == undefined || !str.includes(" ")){
 		return str
 	}else{
